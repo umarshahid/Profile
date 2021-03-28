@@ -4,10 +4,7 @@ module.exports = {
   '(in Stream of Communication Systems & Networks)',
   facts: {
     'Residence': 'House 2, Street 4 \n Warind Colony, Sadiqabad, Rahim Yar Khan',
-    'Homepage': `<a href="https://en.wikipedia.org/wiki/William_Shakespeare">
-                  <span class="print">https://en.wikipedia.org/wiki/William_Shakespeare</span>
-                  <span class="screen">wiki</span>
-                </a>`,
+    
     'Email': '<a href="ushahid.msse18@rcms.nust.edu.pk">ushahid.msse18@rcms.nust.edu.pk</a>'
   },
   skills: [
@@ -19,7 +16,7 @@ module.exports = {
     ['Python', '+++'],
     ['MS word', '++++'],
     ['MS excel', '+++'],
-    ['MS Powerpoint', '++++'],
+    ['MS Powerpoint', '++++']
   ],
   plays: [
     {
