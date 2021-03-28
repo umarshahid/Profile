@@ -1,121 +1,42 @@
-module.exports = {
+/module.exports = {
   name: 'Umar Shahid',
   title: 'Systems Engineer',
   baseUrl: 'https://umarshahid.github.io/Profile/',
   facts: {
-    Residence: '<a href="https://goo.gl/maps/3JZUv4LVbG1bmtwN9"><i class="fa fa-home fact-icon"></i>Weesp, NL</a>',
-    LinkedIn: '<a href="https://www.linkedin.com/in/%F0%9F%8D%89-dmitry-snisarenko-74a4b830/"><i class="fab fa-linkedin fact-icon"></i>dmitry-snisarenko</a>',
-    GitHub: '<a href="https://github.com/sneas"><i class="fab fa-github fact-icon"></i>sneas</a>',
-    StackOverflow: '<a href="https://stackoverflow.com/users/379949/sneas"><i class="fab fa-stack-overflow fact-icon"></i>sneas</a>',
-    HackerRank: '<a href="https://www.hackerrank.com/sneas"><i class="fab fa-hackerrank fact-icon"></i>sneas</a>',
-    Email: '<a href="mailto:dmytro@sneas.io">dmytro@sneas.io</a>',
+    Residence: '<a href="https://goo.gl/maps/3JZUv4LVbG1bmtwN9"><i class="fa fa-home fact-icon"></i>House 2, street 4, warind colony, Sadiqabad, Rahim Yar Khan</a>',
+    LinkedIn: '<a href="https://www.linkedin.com/in/umar-shahid-57a983182/"><i class="fab fa-linkedin fact-icon"></i>umar-shahid</a>',
+    GitHub: '<a href="https://github.com/umarshahid"><i class="fab fa-github fact-icon"></i>umarshahid</a>',
+//     StackOverflow: '<a href="https://stackoverflow.com/users/379949/sneas"><i class="fab fa-stack-overflow fact-icon"></i>sneas</a>',
+//     HackerRank: '<a href="https://www.hackerrank.com/sneas"><i class="fab fa-hackerrank fact-icon"></i>sneas</a>',
+    Email: '<a href="mailto:ushahid.msse18@rcms.nust.edu.pk">ushahid.msse18@rcms.nust.edu.pk</a>',
   },
   skills: [
-    ['Javascript', '++++'],
-    ['HTML5', '++++'],
-    ['CSS3', '++++'],
-    ['ES6', '++++'],
-    ['Typescript', '++++'],
-    ['React', '++++'],
-    ['Redux', '++++'],
-    ['Angular', '++++'],
-    ['RxJS', '++++'],
-    ['GraphQL', '+++'],
-    ['REST', '++++'],
-    ['oAuth', '++++'],
-    ['Webpack', '++++'],
-    ['Scrum', '++++'],
-    ['CI/CD', '++++'],
-    ['TDD', '++++'],
+    ['C/C++', '+++'],
+    ['MATLAB', '++++'],
+    ['Python', '+++'],
+    ['HTML', '+++'],
+    ['CSS', '+++'],
+    ['Latex', '+++'],
+    ['MS Word', '++++'],
+    ['MS Excel', '+++'],
+    ['MS Powerpoint', '++++'],
   ],
   positions: [
     {
-      company: 'DAZN',
-      location: 'Amsterdam',
-      title: 'Platform Engineer',
-      period: 'July 2019 – present',
-      skills: ['AWS', 'Terraform', 'Node', 'React', 'Mobx', 'Redux', 'Webpack', 'Jest'],
+      company: 'Research Center for Modeling and Simulation',
+      location: 'NUST, Islamabad',
+      title: 'Research Assistant',
+      period: 'Oct 2019 – Oct 2020',
+      skills: ['AI', 'ML & DL', 'Neuro-ergonomics', 'Brain Computer Interface (BCI) ', 'Electroencephalography (EEG)'],
       contents: `
-High load media streaming website.
+Machine Learning Pipeline for Mental Workload Assessment.
+Responsibilities:
+ 
+* Data collection for EEG based brain state monitoring
+* Descriptive data analysis and visualization using MATLAB
+* Data classification and prediction using Machine and Deep Learning Techniques
+* Assistance to Supervisor
+
 `,
     },
-    {
-      company: 'KLM Royal Dutch Airlines',
-      location: 'Schiphol',
-      title: 'Senior Frontend Developer',
-      period: 'Feb 2017 – June 2019',
-      skills: ['Angular', 'Ionic', 'Redux', 'RxJS', 'Typescript', 'SASS', 'Webpack', 'Jest'],
-      contents: `
-Real time fault tolerant mobile application used by 330 KLM mechanics at Schiphol airport to perform between-the-flight aircraft maintenance.
-The application displays up-to-date KLM's fleet schedule and towing information, helps team leaders to manage teams, and provides the scope of
-work for mechanics.
-
-Responsibilities:
-
-* Incorporate business requirements into biweekly product increments
-
-Achievements:
-
-* Developed and launched product from the scratch
-* Clean record of critical issues in 2018
-* [Open source library](https://github.com/sneas/ionic-native-http-connection-backend) as a solution to common Ionic's problem. 1k weekly downloads in 2020
-`,
-      review: {
-        file: 'klm.png',
-        author: 'Önder Ceylan, Tech Lead',
-      }
-    },
-    {
-      company: 'Knab hypotheek',
-      location: 'Amsterdam',
-      title: 'Senior Frontend Developer',
-      period: 'Jun 2014 – Feb 2017',
-      skills: ['AngularJS', 'Karma', 'Protractor', 'SASS', 'Gulp', 'Bootstrap', 'PHP', 'Symfony', 'MySQL', 'PHPUnit', 'AWS', 'Heroku'],
-      contents: `
-Core front end developer of a fully automated mortgage advice system.
-
-Started as a backend developer and eventually transferred to the frontend.
-
-Responsibilities:
-
-* Developed new functionality
-* Conducted job interviews
-
-Achievements:
-
-* Developed flexible registration process and 16 tools intended to gather detailed customer's legal and financial data
-* [Component library](https://github.com/sneas/component-library) as a result of collaboration with the design team
-* Introduced test driven development process with Karma and test automation with Protractor
-`,
-      review: {
-        file: 'knab.png',
-        author: 'Mark Sizoo, Tech Lead',
-      }
-    },
-    {
-      company: 'upwork.com',
-      location: 'Mountain View, USA',
-      title: 'Senior Frontend Developer',
-      period: 'Oct 2012 – Jun 2014',
-      skills: ['Javascript', 'jQuery', 'qUnit', 'Grunt', 'Selenium', 'Compass/SASS', 'PHP', 'Zend', 'Postgres'],
-      contents: `
-Core frontend developer of the world's #1 freelance marketplace.
-
-Responsibilities:
-
-* Developed A/B tested functionality for company's crucial business component: Job Posting Engine
-* Conducted job interviews
-* Facilitated onboarding process
-
-Achievements:
-
-* Developed and successfully launched job post engine: highly-configured job posting and rendering tool
-* Introduced test driven development process into the organization's development flow 
-`,
-      review: {
-        file: 'upwork.png',
-        author: 'Sean Kane, Vice President of Engineering',
-      }
-    }
-  ],
 };
