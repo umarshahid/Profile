@@ -74,10 +74,9 @@ Responsibilities:
       skills: ['AI', 'ML & DL', 'Neuro-ergonomics', 'Brain Computer Interface (BCI) ', 'Electroencephalography (EEG)'],
       contents: `
 
-      * EEG is an objective assessment technique used to record brain activities to monitor brain states
-        such as, stress, emotions, drowsiness and workload. In this research, EEG is employed to assess 
-        mental workload from human brain.
-      * We developed a pipeline for real-time EEG based mental workload assessment using deep & machine learning.
+       EEG is an objective assessment technique used to record brain activities to monitor brain states 
+such as, stress, emotions, drowsiness and workload. In this research, EEG is employed to assess mental workload from human brain.
+       We developed a pipeline for real-time EEG based mental workload assessment using deep & machine learning.
       `, 
     }
   ],
