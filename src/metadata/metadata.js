@@ -1,8 +1,8 @@
 module.exports = {
   name: 'Umar Shahid',
-  title: 'Systems Engineer (in Stream of Communication Systems & Networks)',
+  title: 'Systems Engineer "\n"(in Stream of Communication Systems & Networks)',
   facts: {
-    'Residence': 'House 2, Street 4, Warind Colony, Sadiqabad, Rahim Yar Khan',
+    'Residence': 'House 2, Street 4 "\n"Warind Colony, Sadiqabad, Rahim Yar Khan',
     'Homepage': `<a href="https://en.wikipedia.org/wiki/William_Shakespeare">
                   <span class="print">https://en.wikipedia.org/wiki/William_Shakespeare</span>
                   <span class="screen">wiki</span>
