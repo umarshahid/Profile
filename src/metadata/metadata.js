@@ -1,7 +1,7 @@
 module.exports = {
-  name: 'Dmytro Snisarenko',
-  title: 'Frontend Developer',
-  baseUrl: 'https://sneas.github.io/cv/',
+  name: 'Umar Shahid',
+  title: 'Systems Engineer',
+  baseUrl: 'https://umarshahid.github.io/Profile/',
   facts: {
     Residence: '<a href="https://goo.gl/maps/3JZUv4LVbG1bmtwN9"><i class="fa fa-home fact-icon"></i>Weesp, NL</a>',
     LinkedIn: '<a href="https://www.linkedin.com/in/%F0%9F%8D%89-dmitry-snisarenko-74a4b830/"><i class="fab fa-linkedin fact-icon"></i>dmitry-snisarenko</a>',
