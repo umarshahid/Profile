@@ -3,7 +3,7 @@ module.exports = {
   title: 'Systems Engineer',
   baseUrl: 'https://umarshahid.github.io/Profile/',
   facts: {
-    Residence: '<a href="https://goo.gl/maps/3JZUv4LVbG1bmtwN9"><i class="fa fa-home fact-icon"></i>House 2, street 4, warind colony, Sadiqabad, Rahim Yar Khan</a>',
+    Residence: '<a href="https://goo.gl/maps/"><i class="fa fa-home fact-icon"></i>House 2, street 4, warind colony, Sadiqabad, Rahim Yar Khan</a>',
     LinkedIn: '<a href="https://www.linkedin.com/in/umar-shahid-57a983182/"><i class="fab fa-linkedin fact-icon"></i>umar-shahid</a>',
     GitHub: '<a href="https://github.com/umarshahid"><i class="fab fa-github fact-icon"></i>umarshahid</a>',
 //     StackOverflow: '<a href="https://stackoverflow.com/users/379949/sneas"><i class="fab fa-stack-overflow fact-icon"></i>sneas</a>',
@@ -27,7 +27,7 @@ module.exports = {
       location: 'NUST, Islamabad',
       title: 'Research Assistant',
       period: 'Oct 2019 – Oct 2020',
-      skills: ['AI', 'ML & DL', 'Neuro-ergonomics', 'Brain Computer Interface (BCI) ', 'Electroencephalography (EEG)'],
+      skills: ['AI, ML & DL', 'Neuro-ergonomics', 'Brain Computer Interface (BCI) ', 'Electroencephalography (EEG)'],
       contents: `
 Machine Learning Pipeline for Mental Workload Assessment.
 
@@ -44,7 +44,7 @@ Responsibilities:
   education: [
     {
       company: 'MS Systems Engineering',
-      location: 'Communication Systems and Networks',
+      location: '(Communication Systems and Networks)',
       title: 'National University Of Sciences and Technology (NUST), Islamabad',
       period: 'Sep 2018 – Oct 2020',
       skills: ['Data Science', 'Neuro-ergonomics', 'Human Computer Interface (HCI)'],
@@ -55,7 +55,7 @@ Responsibilities:
     
     {
       company: 'BS Information Technology',
-      location: 'Computer Sciences and Management',
+      location: '(Computer Sciences and Management)',
       title: 'The Islamia University of Bahawalpur (IUB), Bahawalpur',
       period: 'Sep 2018 – Oct 2020',
       skills: ['Software Developement', 'Artificial Intelligence'],
@@ -74,7 +74,9 @@ Responsibilities:
       skills: ['AI', 'ML & DL', 'Neuro-ergonomics', 'Brain Computer Interface (BCI) ', 'Electroencephalography (EEG)'],
       contents: `
 
-      * EEG is an objective assessment technique used to record brain activities to monitor brain states such as, stress, emotions, drowsiness and workload. In this research, EEG is employed to assess mental workload from human brain.
+      * EEG is an objective assessment technique used to record brain activities to monitor brain states
+        such as, stress, emotions, drowsiness and workload. In this research, EEG is employed to assess 
+        mental workload from human brain.
       * We developed a pipeline for real-time EEG based mental workload assessment using deep & machine learning.
       `, 
     }
