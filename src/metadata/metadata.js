@@ -10,8 +10,8 @@ module.exports = {
     'Email': '<a href="ushahid.msse18@rcms.nust.edu.pk">ushahid.msse18@rcms.nust.edu.pk</a>'
   },
   skills: [
-    ['', '++++'],
-    ['Love', '++++'],
+    ['C/C++', '++++'],
+    ['MATLAB', '++++'],
     ['Theater', '++++'],
     ['Tragedy', '++++'],
     ['Poetry', '++++'],
