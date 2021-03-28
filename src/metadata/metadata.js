@@ -36,7 +36,7 @@ Responsibilities:
 * Descriptive data analysis and visualization using MATLAB
 * Data classification and prediction using Machine and Deep Learning Techniques
 * Assistance to Supervisor
-
+',
     }
   ],
 };
