@@ -40,4 +40,24 @@ Responsibilities:
 `, 
     }
   ],
+  
+  education: [
+    {
+      company: 'MS Systems Engineering',
+      location: 'Communication Systems and Networks',
+      title: 'National University Of Sciences and Technology (NUST), Islamabad',
+      period: 'Sep 2018 – Oct 2020',
+      skills: ['Data Science', 'Neuro-ergonomics', 'Human Computer Interface (HCI)'],
+    },
+    
+    {
+      company: 'BS Information Technology',
+      location: 'Computer Sciences and Management',
+      title: 'The Islamia University of Bahawalpur (IUB), Bahawalpur',
+      period: 'Sep 2018 – Oct 2020',
+      skills: ['Software Developement', 'Artificial Intelligence'],
+    }
+    
+  ],
+  
 };
