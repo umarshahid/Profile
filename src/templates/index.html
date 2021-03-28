@@ -127,7 +127,7 @@
     </div>
     {{/each}}
 
-    <h3>Career insights</h3>
+<!--     <h3>Career insights</h3>
     <dl class="row">
         <dt class="col-md-2">2010 &ndash; 2012</dt>
         <dd class="col-md-10 mb-3">
@@ -153,10 +153,36 @@
             and animation.
         </dd>
 
-    </dl>
+    </dl> -->
 
     <h2>Education</h2>
-    <p>Masters degree in Computer Engineering. Sevastopol State Technical University [2002 – 2007]</p>
+<!--     <p>Masters degree in Computer Engineering. Sevastopol State Technical University [2002 – 2007]</p> -->
+    {{#each edu}}
+    <div class="card mb-4" style="">
+        <div class="card-body">
+            <h3>{{ company }},
+                <small>{{ location }}</small>
+            </h3>
+            <p>{{ title }}</p>
+            <p class="text-muted">{{ period }}</p>
+
+            <div>{{{markdown contents }}}</div>
+
+            <p>
+                {{#each skills }}
+                <span class="badge badge-primary">{{ this }}</span>
+                {{/each}}
+            </p>
+
+            {{#if review}}
+            <p>
+                Reference: <a href="{{ ../baseUrl }}{{ review.file }}">{{ review.author }}</a>
+            </p>
+            {{/if}}
+        </div>
+    </div>
+    {{/each}}
+    
 
     <h2>Certifications</h2>
     <ul>
