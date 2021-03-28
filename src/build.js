@@ -5,8 +5,6 @@ const templateData = require('./metadata/metadata');
 const Puppeteer = require('puppeteer');
 const getSlug = require('speakingurl');
 const dayjs = require('dayjs');
-const repoName = require('git-repo-name');
-const username = require('git-username');
 
 const srcDir = __dirname;
 const outputDir = __dirname + '/../dist';
@@ -24,7 +22,6 @@ const template = handlebars.compile(source);
 const pdfFileName = `${getSlug(templateData.name)}.${getSlug(templateData.title)}.pdf`;
 const html = template({
   ...templateData,
-  baseUrl: `https://${username()}.github.io/${repoName.sync()}`,
   pdfFileName,
   updated: dayjs().format('MMMM D, YYYY'),
 });
@@ -41,9 +38,9 @@ buildPdf = async function (inputFile, outputFile) {
     format: 'A4',
     border: 0,
     margin: {
-      top: '2.54cm',
-      right: '2.54cm',
-      bottom: '2.54cm',
+      top: '2cm',
+      right: '2cm',
+      bottom: '2cm',
       left: '2.54cm',
     },
   });
@@ -52,3 +49,4 @@ buildPdf = async function (inputFile, outputFile) {
 
 // Build PDF
 buildPdf(`${outputDir}/index.html`, `${outputDir}/${pdfFileName}`);
+

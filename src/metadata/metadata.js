@@ -1,63 +1,121 @@
 module.exports = {
-  name: 'Umar Shahid',
-  title: 'Systems Engineer' 
-  '(in Stream of Communication Systems & Networks)',
+  name: 'Dmytro Snisarenko',
+  title: 'Frontend Developer',
+  baseUrl: 'https://sneas.github.io/cv/',
   facts: {
-    'Residence': 'House 2, Street 4 \n Warind Colony, Sadiqabad, Rahim Yar Khan',
-    
-    'Email': '<a href="ushahid.msse18@rcms.nust.edu.pk">ushahid.msse18@rcms.nust.edu.pk</a>'
+    Residence: '<a href="https://goo.gl/maps/3JZUv4LVbG1bmtwN9"><i class="fa fa-home fact-icon"></i>Weesp, NL</a>',
+    LinkedIn: '<a href="https://www.linkedin.com/in/%F0%9F%8D%89-dmitry-snisarenko-74a4b830/"><i class="fab fa-linkedin fact-icon"></i>dmitry-snisarenko</a>',
+    GitHub: '<a href="https://github.com/sneas"><i class="fab fa-github fact-icon"></i>sneas</a>',
+    StackOverflow: '<a href="https://stackoverflow.com/users/379949/sneas"><i class="fab fa-stack-overflow fact-icon"></i>sneas</a>',
+    HackerRank: '<a href="https://www.hackerrank.com/sneas"><i class="fab fa-hackerrank fact-icon"></i>sneas</a>',
+    Email: '<a href="mailto:dmytro@sneas.io">dmytro@sneas.io</a>',
   },
   skills: [
-    ['C/C++', '++++'],
-    ['MATLAB', '++++'],
-    ['HTML', '+++'],
-    ['CSS', '+++'],
-    ['Latex', '+++'],
-    ['Python', '+++'],
-    ['MS word', '++++'],
-    ['MS excel', '+++'],
-    ['MS Powerpoint', '++++']
+    ['Javascript', '++++'],
+    ['HTML5', '++++'],
+    ['CSS3', '++++'],
+    ['ES6', '++++'],
+    ['Typescript', '++++'],
+    ['React', '++++'],
+    ['Redux', '++++'],
+    ['Angular', '++++'],
+    ['RxJS', '++++'],
+    ['GraphQL', '+++'],
+    ['REST', '++++'],
+    ['oAuth', '++++'],
+    ['Webpack', '++++'],
+    ['Scrum', '++++'],
+    ['CI/CD', '++++'],
+    ['TDD', '++++'],
   ],
-  plays: [
+  positions: [
     {
-      title: 'Research Assistant',
-      written: '2019 - 2020',
-      badges: ['Artificaial Intelligence', 'Electroencephalography', 'Brain Computer Interface'],
+      company: 'DAZN',
+      location: 'Amsterdam',
+      title: 'Platform Engineer',
+      period: 'July 2019 – present',
+      skills: ['AWS', 'Terraform', 'Node', 'React', 'Mobx', 'Redux', 'Webpack', 'Jest'],
       contents: `
-Prince Hamlet is visited by his father's ghost and ordered to avenge his father's murder by killing King Claudius, his uncle. After struggling with several questions, including whether what the ghost said is true and whether it is right for him to take revenge, Hamlet, along with almost all the other major characters, is killed.
-`
+High load media streaming website.
+`,
     },
     {
-      title: 'Twelfth Night',
-      written: '1600 – 1601',
-      badges: ['comedy', 'love'],
+      company: 'KLM Royal Dutch Airlines',
+      location: 'Schiphol',
+      title: 'Senior Frontend Developer',
+      period: 'Feb 2017 – June 2019',
+      skills: ['Angular', 'Ionic', 'Redux', 'RxJS', 'Typescript', 'SASS', 'Webpack', 'Jest'],
       contents: `
-Viola finds herself shipwrecked in Illyria and, assuming that her brother Sebastian has died in the wreck, disguises herself as a man to gain a position in Duke Orsino's court. Orsino sends Viola (whom he knows as Cesario) to deliver a message to his love, Olivia. Olivia, however, dislikes the Duke. She falls in love with Viola, who she thinks is a man. Eventually, Viola's brother Sebastian, who in fact was unharmed in the wreck, reappears. At a critical moment, Viola's true identity is revealed when members of the court notice the similarities between her and Sebastian. Olivia quickly falls in love with Sebastian, and Viola confesses her love for the Duke.
-`
+Real time fault tolerant mobile application used by 330 KLM mechanics at Schiphol airport to perform between-the-flight aircraft maintenance.
+The application displays up-to-date KLM's fleet schedule and towing information, helps team leaders to manage teams, and provides the scope of
+work for mechanics.
+
+Responsibilities:
+
+* Incorporate business requirements into biweekly product increments
+
+Achievements:
+
+* Developed and launched product from the scratch
+* Clean record of critical issues in 2018
+* [Open source library](https://github.com/sneas/ionic-native-http-connection-backend) as a solution to common Ionic's problem. 1k weekly downloads in 2020
+`,
+      review: {
+        file: 'klm.png',
+        author: 'Önder Ceylan, Tech Lead',
+      }
     },
     {
-      title: 'The Tragedy of Romeo and Juliet',
-      written: '1595–1596, with a possible early draft written in 1591',
-      badges: ['tragedy', 'death', 'love'],
+      company: 'Knab hypotheek',
+      location: 'Amsterdam',
+      title: 'Senior Frontend Developer',
+      period: 'Jun 2014 – Feb 2017',
+      skills: ['AngularJS', 'Karma', 'Protractor', 'SASS', 'Gulp', 'Bootstrap', 'PHP', 'Symfony', 'MySQL', 'PHPUnit', 'AWS', 'Heroku'],
       contents: `
-In Verona, Italy, two families, the Montagues and the Capulets, are in the midst of a bloody feud. Romeo, a Montague, and Juliet, a Capulet, fall in love and struggle to maintain their relationship in the face of familial hatred. After Romeo kills Juliet's cousin Tybalt in a fit of passion, things fall apart. Both lovers eventually commit suicide within minutes of each other, and the feuding families make peace over their recent grief.
-`
+Core front end developer of a fully automated mortgage advice system.
+
+Started as a backend developer and eventually transferred to the frontend.
+
+Responsibilities:
+
+* Developed new functionality
+* Conducted job interviews
+
+Achievements:
+
+* Developed flexible registration process and 16 tools intended to gather detailed customer's legal and financial data
+* [Component library](https://github.com/sneas/component-library) as a result of collaboration with the design team
+* Introduced test driven development process with Karma and test automation with Protractor
+`,
+      review: {
+        file: 'knab.png',
+        author: 'Mark Sizoo, Tech Lead',
+      }
+    },
+    {
+      company: 'upwork.com',
+      location: 'Mountain View, USA',
+      title: 'Senior Frontend Developer',
+      period: 'Oct 2012 – Jun 2014',
+      skills: ['Javascript', 'jQuery', 'qUnit', 'Grunt', 'Selenium', 'Compass/SASS', 'PHP', 'Zend', 'Postgres'],
+      contents: `
+Core frontend developer of the world's #1 freelance marketplace.
+
+Responsibilities:
+
+* Developed A/B tested functionality for company's crucial business component: Job Posting Engine
+* Conducted job interviews
+* Facilitated onboarding process
+
+Achievements:
+
+* Developed and successfully launched job post engine: highly-configured job posting and rendering tool
+* Introduced test driven development process into the organization's development flow 
+`,
+      review: {
+        file: 'upwork.png',
+        author: 'Sean Kane, Vice President of Engineering',
+      }
     }
   ],
-  experience: [
-    {
-      header: 'Performance',
-      skills: ['theater', 'play'],
-      contents: `
-Thousands of performances of my plays have been staged since the end of the 16th century. Many of my greatest plays were performed by the Lord Chamberlain's Men and King's Men acting companies at the [Globe](https://en.wikipedia.org/wiki/Globe_Theatre) and Blackfriars Theatres.
-`
-    },
-    {
-      header: 'Poetry',
-      skills: ['poetry', 'erotic'],
-      contents: `
-In 1593 and 1594, when the theatres were closed because of plague, I published two narrative poems on sexual themes, Venus and Adonis and The Rape of Lucrece. He dedicated them to Henry Wriothesley, Earl of Southampton.
-`
-    }
-  ]
 };
