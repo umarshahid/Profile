@@ -37,7 +37,6 @@ Responsibilities:
 * Data classification and prediction using Machine and Deep Learning Techniques
 * Assistance to Supervisor
 
-`,
     }
-    ],
+  ],
 };
