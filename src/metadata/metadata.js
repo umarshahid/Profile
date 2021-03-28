@@ -28,7 +28,7 @@ module.exports = {
       title: 'Research Assistant',
       period: 'Oct 2019 – Oct 2020',
       skills: ['AI', 'ML & DL', 'Neuro-ergonomics', 'Brain Computer Interface (BCI) ', 'Electroencephalography (EEG)'],
-      contents: `
+      contents: '
 Machine Learning Pipeline for Mental Workload Assessment.
 
 Responsibilities:
