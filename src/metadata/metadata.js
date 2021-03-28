@@ -60,4 +60,21 @@ Responsibilities:
     
   ],
   
+  Thesis: [
+    {
+      company: 'EEG Based Mental Workload Assessment Using Machine Learning',
+      location: 'NUST, Islamabad',
+      title: 'Under Supervision of Dr. Shahzad Rasool, Dr Adnan Maqsood & Dr. Ammar Mushtaq',
+      period: 'Oct 2019 – Oct 2020',
+      skills: ['AI', 'ML & DL', 'Neuro-ergonomics', 'Brain Computer Interface (BCI) ', 'Electroencephalography (EEG)'],
+      contents: `
+* EEG is an objective assessment technique used to record brain activities to monitor brain states such
+as, stress, emotions, drowsiness and workload. In this research, EEG is employed to assess mental
+workload from human brain.
+* We developed a pipeline for real-time EEG based mental workload assessment using deep & machine
+learning.
+`, 
+    }
+  ],
+  
 };
