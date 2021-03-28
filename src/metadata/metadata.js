@@ -28,7 +28,7 @@ module.exports = {
       title: 'Research Assistant',
       period: 'Oct 2019 – Oct 2020',
       skills: ['AI', 'ML & DL', 'Neuro-ergonomics', 'Brain Computer Interface (BCI) ', 'Electroencephalography (EEG)'],
-      contents: '
+      contents: `
 Machine Learning Pipeline for Mental Workload Assessment.
 
 Responsibilities:
@@ -37,7 +37,7 @@ Responsibilities:
 * Descriptive data analysis and visualization using MATLAB
 * Data classification and prediction using Machine and Deep Learning Techniques
 * Assistance to Supervisor
-',
+`, 
     }
   ],
 };
