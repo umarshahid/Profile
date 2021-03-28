@@ -1,4 +1,4 @@
-/module.exports = {
+module.exports = {
   name: 'Umar Shahid',
   title: 'Systems Engineer',
   baseUrl: 'https://umarshahid.github.io/Profile/',
