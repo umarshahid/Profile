@@ -12,22 +12,19 @@ module.exports = {
   skills: [
     ['C/C++', '++++'],
     ['MATLAB', '++++'],
-    ['Theater', '++++'],
-    ['Tragedy', '++++'],
-    ['Poetry', '++++'],
-    ['Erotic', '+++'],
-    ['Sonnets', '++++'],
-    ['Plays', '++++'],
-    ['Writing', '++++'],
-    ['Directing', '+++'],
-    ['Literature', '++++'],
-    ['Influence', '++++'],
+    ['HTML', '+++'],
+    ['CSS', '+++'],
+    ['Latex', '+++'],
+    ['Python', '+++'],
+    ['MS word', '++++'],
+    ['MS excel', '+++'],
+    ['MS Powerpoint', '++++'],
   ],
   plays: [
     {
-      title: 'Hamlet',
-      written: 'Likely early 17th century',
-      badges: ['tragedy', 'philosophy', 'death'],
+      title: 'Research Assistant',
+      written: '2019 - 2020',
+      badges: ['Artificaial Intelligence', 'Electroencephalography', 'Brain Computer Interface'],
       contents: `
 Prince Hamlet is visited by his father's ghost and ordered to avenge his father's murder by killing King Claudius, his uncle. After struggling with several questions, including whether what the ghost said is true and whether it is right for him to take revenge, Hamlet, along with almost all the other major characters, is killed.
 `
