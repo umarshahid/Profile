@@ -60,7 +60,7 @@ Responsibilities:
     
   ],
   
-  Thesis: [
+  Th1: [
     {
       company: 'EEG Based Mental Workload Assessment Using Machine Learning',
       location: 'NUST, Islamabad',
