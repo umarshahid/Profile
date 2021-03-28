@@ -30,6 +30,7 @@ module.exports = {
       skills: ['AI', 'ML & DL', 'Neuro-ergonomics', 'Brain Computer Interface (BCI) ', 'Electroencephalography (EEG)'],
       contents: `
 Machine Learning Pipeline for Mental Workload Assessment.
+
 Responsibilities:
  
 * Data collection for EEG based brain state monitoring
