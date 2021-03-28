@@ -183,15 +183,41 @@
     </div>
     {{/each}}
     
+    
+  <h2>Master's Thesis</h2>  
+    {{#each Thesis}}
+    <div class="card mb-4" style="">
+        <div class="card-body">
+            <h3>{{ company }},
+                <small>{{ location }}</small>
+            </h3>
+            <p>{{ title }}</p>
+            <p class="text-muted">{{ period }}</p>
 
-    <h2>Certifications</h2>
+            <div>{{{markdown contents }}}</div>
+
+            <p>
+                {{#each skills }}
+                <span class="badge badge-primary">{{ this }}</span>
+                {{/each}}
+            </p>
+
+            {{#if review}}
+            <p>
+                Reference: <a href="{{ ../baseUrl }}{{ review.file }}">{{ review.author }}</a>
+            </p>
+            {{/if}}
+        </div>
+    </div>
+    {{/each}}
+
+    <h2>Projects</h2>
     <ul>
-        <li><i class="fab fa-aws"></i> <a
-            href="https://www.certmetrics.com/amazon/public/badge.aspx?i=1&t=c&d=2019-01-18&ci=AWS00685571">AWS
-            Certified Solutions Architect - Associate</a> - Jan 18, 2019
+        <li> <a
+            href="https://umarshahid.github.io/EEG-workload/"> Realtime Pipeline for EEG based Mental Workload Assessment</a> <span class="badge badge-primary">PHP 5.3</span> - Dec 2019 - Oct 2020
         </li>
-        <li><i class="fas fa-redo"></i> <a href="https://www.scrum.org/user/323673">Professional Scrum Master I</a> -
-            Apr 2, 2018
+        <li> <a href="https://umarshahid.github.io/NPRS/">Vehical Number Plate Recognition System </a> <span class="badge badge-primary">MATLAB</span> -
+            Mar 2018 - July 2018
         </li>
         <li>
             <i class="fab fa-react"></i> <a href="https://confirm.udacity.com/RMTJQHYX">React Nanodegree</a> - Dec 27,
@@ -201,30 +227,10 @@
             24, 2011
         </li>
     </ul>
-
-    <h2>Additional experience</h2>
-
-    <ul>
         <li>
-            Some of my interests and hobbies revolve around GitHub and open source community.<br/>
-            A complete list of side/hobby projects: <a href="https://github.com/sneas">https://github.com/sneas</a>
-        </li>
-        <li>
-            (Not so)Active member of developer communities
-
-            <ul>
-                <li><a href="https://toster.ru/user/search">toster.ru/user/search</a> (Russian speaking community)</li>
-                <li><a href="https://stackoverflow.com/users/379949/sneas">stackoverflow.com/users/379949/sneas</a></li>
-                <li><a
-                    href="https://ru.stackoverflow.com/users/272582/sneas">ru.stackoverflow.com/users/272582/sneas</a>
-                    (Russian speaking community)
-                </li>
-            </ul>
-
-            <br/>
-            Categories: <span class="badge badge-primary">Javascript</span> <span
-            class="badge badge-primary">Angular</span> <span class="badge badge-primary">React</span> <span
-            class="badge badge-primary">Typescript</span>
+            Hobies: <span class="badge badge-primary">Sketeching</span> <span
+            class="badge badge-primary">Book Reading</span> <span class="badge badge-primary">Music</span> <span
+            class="badge badge-primary">Surffing Internet</span>
         </li>
     </ul>
 </div>
