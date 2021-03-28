@@ -38,6 +38,6 @@ Responsibilities:
 * Assistance to Supervisor
 
 `,
-    },
+    }
     ],
 };
