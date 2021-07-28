@@ -3,7 +3,7 @@ module.exports = {
   title: 'Systems Engineer',
   baseUrl: 'https://umarshahid.github.io/Profile/',
   facts: {
-    Residence: '<a href="https://goo.gl/maps/"><i class="fa fa-home fact-icon"></i>House 2, street 4, warind colony, Sadiqabad, Rahim Yar Khan</a>',
+    Residence: '<a href="https://goo.gl/maps/"><i class="fa fa-home fact-icon"></i>B-17, Block-A, Taxila Road, Islamabad</a>',
     LinkedIn: '<a href="https://www.linkedin.com/in/umar-shahid-57a983182/"><i class="fab fa-linkedin fact-icon"></i>umar-shahid</a>',
     GitHub: '<a href="https://github.com/umarshahid"><i class="fab fa-github fact-icon"></i>umarshahid</a>',
 //     StackOverflow: '<a href="https://stackoverflow.com/users/379949/sneas"><i class="fab fa-stack-overflow fact-icon"></i>sneas</a>',
@@ -29,14 +29,14 @@ module.exports = {
       period: 'Oct 2019 – Oct 2020',
       skills: ['AI, ML & DL', 'Neuro-ergonomics', 'Brain Computer Interface (BCI) ', 'Electroencephalography (EEG)'],
       contents: `
-Machine Learning Pipeline for Mental Workload Assessment.
+Brain State Monitoring of Pilot During Flight with Head Mounted Device using Machine Learning.
 
 Responsibilities:
  
 * Data collection for EEG based brain state monitoring
 * Descriptive data analysis and visualization using MATLAB
 * Data classification and prediction using Machine and Deep Learning Techniques
-* Assistance to Supervisor
+* Assistance to Project Supervisor
 `, 
     }
   ],
