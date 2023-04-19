@@ -6,7 +6,7 @@ module.exports = {
     Residence: '<a href="https://goo.gl/maps/"><i class="fa fa-home fact-icon"></i>Flat-211-B, Mehar Apartments, H-13, Islamabad</a>',
     LinkedIn: '<a href="https://www.linkedin.com/in/umar-shahid-57a983182/"><i class="fab fa-linkedin fact-icon"></i>umar-shahid</a>',
     GitHub: '<a href="https://github.com/umarshahid"><i class="fab fa-github fact-icon"></i>umarshahid</a>',     
-    StackOverflow: '<a href="https://stackoverflow.com/users/9471551/umarrr?tab=profile"><i class="fab fa-stack-overflow fact-icon"></i>sneas</a>',
+    StackOverflow: '<a href="https://stackoverflow.com/users/9471551/umarrr?tab=profile"><i class="fab fa-stack-overflow fact-icon"></i>umarshahid</a>',
 //     HackerRank: '<a href="https://www.hackerrank.com/sneas"><i class="fab fa-hackerrank fact-icon"></i>sneas</a>',
     Email: '<a href="mailto:umarshahdin@yahoo.com">umarshahdin@yahoo.com</a>',
   },
